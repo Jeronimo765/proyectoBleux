@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #1D142F;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secciones a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding: 0px 15px;
+}
+
+.secciones a:hover {
+    color: white;
+}
+
+.botonnav {
+    color: white;
+    border: none;
+    background: linear-gradient(to right, #7f00ff, #00c6ff);
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.boto:hover {
+    transform: scale(1.05);
+}
+
+.product-page {
+    background-color: #2D244F;
+    width: 50%;
+    min-height: 100vh;
+    justify-items: end;
+    align-content: center;
+}
+
+.product-page h1 {
+    color: white;
+    align-items: center;
+    font-size: 60px;
+
+}
+
+.product-page p {
+    color: white;
+}
+
+.hoja {
+    background-image: url(../assets/images/hojasFondo.jpg);
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    /* Flexbox */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: flex-start;
+    /* Empieza desde arriba */
+    padding-top: 80px;
+}
+
+.hoja img {
+    width: 35%;
+    max-width: 400px;
+    height: auto;
+}
+
+.caja {
+    display: flex;
+}
+
+.botones button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.botones button:first-child {
+    background-color: white;
+    color: #e60073;
+}
+.botones button:last-child {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.funcionalidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    gap: 60px;
+    background-color: #f6f6fb;
+}
+.funcionalidades img{
+    width: 300px;
+    height: auto;
+}
+.funcionalidades h1 {
+    color: #E62882;
+    text-align: center;
+    font-size: 60px;
+     position: relative;
+    top: -120px; /* Súbelo */
+}
+.funcionalidades h2 {
+    color: #D51F76;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.funcionalidades h3 {
+    color: #CB8AAC;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.funcionalidades p {
+    margin: 6px 0;
+    font-size: 16px;
+    color: #444;
+}
+.funcionalidades p i {
+    color: #e60073;
+    margin-right: 8px;
+}
