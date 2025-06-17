@@ -226,7 +226,6 @@ nav {
 
 .plan-ultimate {
     background: white;
-    padding: 50px;
     width: 300px;
     border-radius: 20px;
     text-align: left;
@@ -297,14 +296,12 @@ nav {
 
 .gris2 {
     background-color: #F5F5F5;
-    padding: 10px 0;
+    background-color: #F5F5F5;
+    padding: 10px ;
     text-align: center;
     margin-top: 6%;
     margin-bottom: 6%;
-    position: relative;
-    left: -50px;
-    width: calc(125% + 50px);
-    margin-top: -10px;
+    width: 100%;
 }
 
 .gris3 {
@@ -313,9 +310,7 @@ nav {
     text-align: center;
     margin-top: 6%;
     margin-bottom: 6%;
-    position: relative;
-    left: -50px;
-    width: calc(125% + 50px);
+    width: 100%;
 }
 
 .plan-card,
