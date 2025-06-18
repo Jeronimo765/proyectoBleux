@@ -111,6 +111,17 @@ nav {
     border: 1px solid white;
 }
 
+.botones {
+    width: 160px;
+    padding: 3px;
+    gap: 10px;
+    margin: 10px 0 0 0;
+    display: flex;
+    width: fit-content;
+    border: 2px solid#585173;
+    border-radius: 5px;
+}
+
 .funcionalidades {
     flex-direction: column;
     justify-content: center;
@@ -394,22 +405,18 @@ nav {
     text-align: center;
     width: 230px;
     margin: 0 auto;
-    text-align: center;
-
 }
 
 .p2 {
     text-align: center;
     width: 230px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .p3 {
     text-align: center;
     width: 230px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .img2 {
@@ -480,6 +487,7 @@ p span {
     color: #808080;
     font-size: 15px;
 }
+
 .container-gris1 {
     background-color: #F5F5F5;
     padding: 20px;
