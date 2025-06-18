@@ -296,8 +296,7 @@ nav {
 
 .gris2 {
     background-color: #F5F5F5;
-    background-color: #F5F5F5;
-    padding: 10px ;
+    padding: 10px 0;
     text-align: center;
     margin-top: 6%;
     margin-bottom: 6%;
@@ -393,7 +392,9 @@ nav {
 
 .p1 {
     text-align: center;
-    width: 100%;
+    width: 230px;
+    margin: 0 auto;
+    text-align: center;
 
 }
 
@@ -430,11 +431,11 @@ nav {
 }
 
 .plan-standard p {
-    margin: 8px 0;
+    margin: 2% 20%;
 }
 
 .plan-ultimate p {
-    margin: 8px 0;
+    margin: 2% 20%;
 }
 
 .plan-card i {
@@ -479,12 +480,6 @@ p span {
     color: #808080;
     font-size: 15px;
 }
-
-.boton1 button {
-    background: linear-gradient(to right, #EC5FA7, #F31C8A);
-
-}
-
 .container-gris1 {
     background-color: #F5F5F5;
     padding: 20px;
@@ -503,7 +498,7 @@ p span {
 }
 
 
-.boton3 button {
+.boton2 button {
     background: #2E2550;
     padding: 10px 20px;
     font-size: 15px;
